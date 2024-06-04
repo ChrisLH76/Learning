@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: roboto, sans-serif;
+}
+.card-section {
+  margin: 0 auto;
+}
+
+.card-section-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-section > h2 {
+  text-align: center;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.card-section > h2::after {
+  content: "";
+  width: 80%;
+  border-bottom: 1px solid #ed7224;
+  position: absolute;
+  left: 10%;
+  bottom: 3px;
+}
+
+.card-container {
+  height: 400px;
+  width: 300px;
+  background-color: #e8eff2;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.22);
+}
+
+.card-color {
+  height: 25%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.orange-card {
+  background-color: #ed7224;
+}
+
+.blue-card {
+  background-color: #146181;
+}
+
+.brown-card {
+  background-color: #ab9e79;
+}
+
+.card-img-container {
+  position: absolute;
+  height: 121px;
+  width: 121px;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(50%);
+  bottom: 0px;
+  left: 50%;
+  background-color: white;
+  padding: 3px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.52);
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-position: center;
+}
+
+.card-img-diane {
+  background-image: url(/img/diane.jpeg);
+  background-position-y: 1px;
+  background-position-x: -50px;
+  background-size: 180%;
+}
+
+.card-img-eric {
+  background-image: url(/img/eric.jpg);
+  background-position-y: -40px;
+  background-position-x: -130px;
+  background-size: 350%;
+}
+
+.card-img-chantal {
+  background-image: url(/img/chantal.jpg);
+  background-position-y: -35px;
+  background-position-x: -25px;
+  background-size: 150%;
+}
+
+.card-img-didier {
+  background-image: url(/img/didier.jpg);
+  background-position-y: 0px;
+  background-position-x: -55px;
+  background-size: 320%;
+}
+
+.card-img-thierry {
+  background-image: url(/img/thierry.jpg);
+  background-position-y: 10px;
+  background-position-x: -0px;
+  background-size: 100%;
+}
+
+.card-description {
+  width: 90%;
+  height: 65%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin: 40px auto;
+}
+
+.card-name {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-job {
+  color: #ed7224;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+
+.card-sentence {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-size: 0.6em;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.card-button {
+  width: 150px;
+  height: 39px;
+  border-radius: 5px;
+  border: 1px solid #ed7224;
+  text-transform: uppercase;
+  color: #ed7224;
+  margin: 0 auto;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
