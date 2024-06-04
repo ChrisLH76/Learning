@@ -74,6 +74,13 @@ body {
   background-color: white;
   padding: 3px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.52);
+  transition: 0.6s;
+}
+
+.card-img-container:hover {
+  box-shadow: 0 5px 30px rgba(255, 255, 255, 0.52);
+  transition: 0.3s;
+  padding: 1px;
 }
 
 .card-img {
