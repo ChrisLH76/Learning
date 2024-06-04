@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 body {
@@ -37,26 +37,6 @@ body {
   position: absolute;
   left: 10%;
   bottom: 3px;
-}
-
-.card-eric {
-  visibility: visible;
-}
-
-.card-diane {
-  visibility: visible;
-}
-
-.card-chantal {
-  visibility: visible;
-}
-
-.card-didier {
-  visibility: visible;
-}
-
-.card-thierry {
-  visibility: visible;
 }
 
 .card-container {
